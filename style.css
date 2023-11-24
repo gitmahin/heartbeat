@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loveimg img{
+    width: 200px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: loveani .2s ease-in infinite alternate-reverse;
+}
+
+@keyframes loveani{
+    to{
+        width: 300px;
+    }
+}
