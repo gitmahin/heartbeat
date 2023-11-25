@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    animation: bodyani .2s ease-in infinite alternate-reverse;
+}
+
 .loveimg img{
     width: 200px;
     display: flex;
@@ -17,6 +21,7 @@
 @keyframes loveani{
     to{
         width: 300px;
+        
     }
 }
 
@@ -26,4 +31,10 @@ audio{
     transform: translate(-50%, -50%);
     left: 50%;
     
+}
+
+@keyframes bodyani{
+    to{
+        background-color: rgb(252, 196, 196);
+    }
 }
